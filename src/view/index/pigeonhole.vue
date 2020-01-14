@@ -3,11 +3,9 @@
     <!--头部组件-->
     <Head></Head>
 
-    <!--导入身体组件-->
-    <PigeonholeBody></PigeonholeBody>
-
-    <!--脚-->
-    <Footer></Footer>
+<!--    &lt;!&ndash;导入身体组件&ndash;&gt;
+    <PigeonholeBody></PigeonholeBody>-->
+    <TimerShaft></TimerShaft>
   </div>
 </template>
 
@@ -24,6 +22,9 @@
   import PigeonholeBody from "../../components/pigeonhole/body"
 
 
+  import TimerShaft from "../../common/timersafht/timershaft"
+
+
   /**
    * 脚
    */
@@ -34,7 +35,7 @@
     components: {
       Head,
       Footer,
-      PigeonholeBody
+      PigeonholeBody,TimerShaft
     }
   }
 </script>
