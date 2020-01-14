@@ -84,8 +84,12 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                      aria-expanded="false">News <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><router-link to = "/pigeonhole">归档๑</router-link></li>
-                    <li><router-link to = "/new_article">最新文章๑</router-link></li>
+                    <li>
+                      <router-link to="/pigeonhole">归档๑</router-link>
+                    </li>
+                    <li>
+                      <router-link to="/new_article">最新文章๑</router-link>
+                    </li>
                     <li><a href="news-tiles.html">分类文章๑</a></li>
                     <li><a href="single-post-video.html">我的相册๑</a></li>
                   </ul>
@@ -94,8 +98,12 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                      aria-expanded="false">Pages <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><router-link to = "/leave_a_message">留言๑</router-link></li>
-                    <li><a href="about-us.html">关于我๑</a></li>
+                    <li>
+                      <router-link to="/leave_a_message">留言๑</router-link>
+                    </li>
+                    <li>
+                      <router-link to="/about">关于我๑</router-link>
+                    </li>
                     <li><a href="contact-us.html">接触我๑</a></li>
                   </ul>
                 </li>

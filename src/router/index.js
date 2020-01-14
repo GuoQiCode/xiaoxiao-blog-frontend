@@ -45,6 +45,13 @@ const LeaveAMessage  = ()=> import("../view/index/leaveAMessage")
  */
 const NewArticle = ()=> import("../view/index/newArticle")
 
+
+/**
+ * 关于我的
+ * @constructor
+ */
+const About  = ()=> import("../view/index/about")
+
 /**
  * 配置路由
  * @type {*[]}
@@ -95,6 +102,10 @@ const routes  = [
   {
     path:"/new_article",
     component:NewArticle
+  },
+  {
+    path:"/about",
+    component:About
   }
 ]
 /**

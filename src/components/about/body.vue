@@ -1,0 +1,253 @@
+<template>
+  <div>
+    <section class="white-wrapper">
+      <div class="section-inner">
+        <div class="container">
+          <div class="row mb60 text-center">
+            <div class="col-sm-12">
+              <h3 class="section-title">关于我๑</h3>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8">
+              <p class="lead mb40">Interactively visualize web-enabled markets vis-a-vis future-proof total linkage.
+                Competently parallel task economically sound networks before effective systems. Assertively formulate
+                premier methodologies rather than client-focused products. Energistically customize equity invested
+                imperatives via ethical outsourcing. Competently parallel task compelling technologies through
+                next-generation initiatives.</p>
+              <p>Energistically evisculate 2.0 strategic theme areas via extensible sources. Conveniently
+                procrastinate client-focused models through out-of-the-box systems. Holisticly parallel task cross
+                functional synergy rather than low-risk high-yield experiences. Conveniently myocardinate premier
+                networks after seamless materials. Competently build technically sound applications after exceptional
+                applications.</p>
+              <p>Competently impact multifunctional resources through cross-platform bandwidth. Globally reinvent B2C
+                manufactured products and cross functional portals. Quickly seize cross-unit partnerships rather than
+                premier data. Professionally evisculate value-added communities whereas reliable deliverables.
+                Monotonectally parallel task e-business interfaces with distinctive resources.</p>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="panel-group styled-accordion" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading panel-open smoothie" role="tab" id="headingOne">
+
+                      <h4 class="panel-title">
+                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">夏日特别</a>
+                      </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                       aria-labelledby="headingOne">
+                    <div class="panel-body">
+                      <p>Phosfluorescently e-enable multidisciplinary architectures without team driven services.
+                        Credibly innovate high-payoff alignments before resource sucking metrics. Uniquely repurpose
+                        granular synergy after tactical internal or "organic" sources. Conveniently fabricate go
+                        forward niches vis-a-vis top-line partnerships. Progressively brand 24/7 deliverables whereas
+                        diverse total linkage.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading smoothie" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                         href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">个人简介</a>
+                    </h4>
+                  </div>
+                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                      <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                        squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                        nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                        single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer
+                        labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                        Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
+                        haven't heard of them accusamus labore sustainable VHS.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading smoothie" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                         href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">秋天的回忆</a>
+                    </h4>
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                       aria-labelledby="headingThree">
+                    <div class="panel-body">
+                      <p>Enthusiastically disseminate bleeding-edge ROI rather than accurate results. Collaboratively
+                        scale interoperable experiences for dynamic services. Appropriately embrace web-enabled
+                        potentialities rather than proactive human capital. Distinctively mesh resource-leveling
+                        e-commerce without B2B applications. Rapidiously iterate resource sucking intellectual capital
+                        vis-a-vis alternative experiences. Dramatically exploit unique communities rather than
+                        customized customer service. Energistically pursue high standards in manufactured products
+                        after top-line expertise.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="our-team">
+      <div class="section-inner">
+        <div class="container">
+          <div class="row mb60 text-center">
+            <div class="col-sm-12">
+              <h3 class="section-title">Meet The Team</h3>
+              <p class="section-sub-title">The very best in their fields.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row nopaddingleftright">
+          <div class="team-item col-md-3 match-height nopaddingleftright">
+            <div class="hover-effect smoothie match-height">
+              <a href="#" class="smoothie">
+                <img src="../../assets/images/team-1.jpg" alt="Image" class="img-responsive smoothie"></a>
+              <div class="hover-overlay smoothie text-center">
+                <div class="vertical-align-bottom">
+                  <h4>Richard Smith</h4>
+                  <span class="item-category-span">Technology Writer</span>
+                </div>
+              </div>
+              <div class="hover-caption dark-overlay smoothie text-center">
+                <div class="vertical-align-top">
+                  <p class="mb20">Credibly re-engineer best-of-breed imperatives for viral innovation. Appropriately
+                    extend sustainable channels before sustainable niches. Intrinsicly seize functionalized niches for
+                    user-centric paradigms.</p>
+                  <div class="team-social">
+                    <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="google" href="#"><i class="fa fa-google-plus"></i></a>
+                    <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a>
+                    <a class="blog" href="#"><i class="fa fa-rss"></i></a>
+                    <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+                  </div>
+                </div>
+                <div class="vertical-align-bottom">
+                  <a href="single-team.html" class="btn btn-primary mb20">View Profile <i
+                          class="fa fa-angle-right smoothie"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team-item col-md-3 match-height nopaddingleftright">
+            <div class="hover-effect smoothie match-height">
+              <a href="#" class="smoothie">
+                <img src="../../assets/images/team-2.jpg" alt="Image" class="img-responsive smoothie"></a>
+              <div class="hover-overlay smoothie text-center">
+                <div class="vertical-align-bottom">
+                  <h4>Dave Bronze</h4>
+                  <span class="item-category-span">Editor</span>
+                </div>
+              </div>
+              <div class="hover-caption dark-overlay smoothie text-center">
+                <div class="vertical-align-top">
+                  <p class="mb20">Credibly re-engineer best-of-breed imperatives for viral innovation. Appropriately
+                    extend sustainable channels before sustainable niches. Intrinsicly seize functionalized niches for
+                    user-centric paradigms.</p>
+                  <div class="team-social">
+                    <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="google" href="#"><i class="fa fa-google-plus"></i></a>
+                    <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a>
+                    <a class="blog" href="#"><i class="fa fa-rss"></i></a>
+                    <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+                  </div>
+                </div>
+                <div class="vertical-align-bottom">
+                  <a href="single-team.html" class="btn btn-primary mb20">View Profile <i
+                          class="fa fa-angle-right smoothie"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team-item col-md-3 match-height nopaddingleftright">
+            <div class="hover-effect smoothie match-height">
+              <a href="#" class="smoothie">
+                <img src="../../assets/images/team-3.jpg" alt="Image" class="img-responsive smoothie"></a>
+              <div class="hover-overlay smoothie text-center">
+                <div class="vertical-align-bottom">
+                  <h4>Trevor Shannon</h4>
+                  <span class="item-category-span">Videographer</span>
+                </div>
+              </div>
+              <div class="hover-caption dark-overlay smoothie text-center">
+                <div class="vertical-align-top">
+                  <p class="mb20">Credibly re-engineer best-of-breed imperatives for viral innovation. Appropriately
+                    extend sustainable channels before sustainable niches. Intrinsicly seize functionalized niches for
+                    user-centric paradigms.</p>
+                  <div class="team-social">
+                    <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="google" href="#"><i class="fa fa-google-plus"></i></a>
+                    <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a>
+                    <a class="blog" href="#"><i class="fa fa-rss"></i></a>
+                    <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+                  </div>
+                </div>
+                <div class="vertical-align-bottom">
+                  <a href="single-team.html" class="btn btn-primary mb20">View Profile <i
+                          class="fa fa-angle-right smoothie"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team-item col-md-3 match-height nopaddingleftright">
+            <div class="hover-effect smoothie match-height">
+              <a href="#" class="smoothie">
+                <img src="../../assets/images/team-4.jpg" alt="Image" class="img-responsive smoothie"></a>
+              <div class="hover-overlay smoothie text-center">
+                <div class="vertical-align-bottom">
+                  <h4>Stan Thorpe</h4>
+                  <span class="item-category-span">Stylist</span>
+                </div>
+              </div>
+              <div class="hover-caption dark-overlay smoothie text-center">
+                <div class="vertical-align-top">
+                  <p class="mb20">Credibly re-engineer best-of-breed imperatives for viral innovation. Appropriately
+                    extend sustainable channels before sustainable niches. Intrinsicly seize functionalized niches for
+                    user-centric paradigms.</p>
+                  <div class="team-social">
+                    <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="google" href="#"><i class="fa fa-google-plus"></i></a>
+                    <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a>
+                    <a class="blog" href="#"><i class="fa fa-rss"></i></a>
+                    <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+                  </div>
+                </div>
+                <div class="vertical-align-bottom">
+                  <a href="single-team.html" class="btn btn-primary mb20">View Profile <i
+                          class="fa fa-angle-right smoothie"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</template>
+
+<script>
+  export default {
+    name: "AboutBody"
+  }
+</script>
+
+<style scoped>
+  @import "../../assets/bootstrap/css/bootstrap.min.css";
+  @import "../../assets/pe-icons/css/pe-icon-7-stroke.css";
+  @import "../../assets/font-awesome/css/font-awesome.min.css";
+  @import "../../assets/css/animate.css";
+  @import "../../assets/css/plugins.css";
+  @import "../../assets/css/style.css";
+</style>
