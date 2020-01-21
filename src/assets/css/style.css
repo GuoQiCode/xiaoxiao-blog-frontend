@@ -99,7 +99,8 @@ span.x4:before,i.x4:before {
 }
 
 .fullheight {
-    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .mb20 {
@@ -1703,4 +1704,16 @@ a.logo-dark, .scrolled a.logo-light {
         color: #eee;
     }
 
+}
+
+.bg {
+    background-color: #1e1e1e;
+    color: rebeccapurple;
+    margin-top: 10px;
+}
+.img-size{
+
+    height: 650px;
+    width: 1180px;
+    center:center;
 }

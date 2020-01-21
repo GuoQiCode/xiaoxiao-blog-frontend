@@ -2,37 +2,32 @@
   <div>
     <Head></Head>
     <div>
-      <section class="white-wrapper">
+      <section class="white-wrapper bg">
         <div class="section-inner">
-          <div class="container mb90">
-            <header id="home" class="backstretched fullheight">
-              <div class="dark-overlay dark-overlay-remove-color fullheight">
-                <div class="container-fluid fullheight special-max-width">
-                  <div class="vertical-center-js">
-                    <div class="row">
-                      <div class="col-sm-1 hidden-xs backstrech-controls vertical-center-js">
-                        <div style="margin-top: 270px" @click.prevent="prevSlide">
-                          <a href="#" class="pull-left"><i class="fa fa-2x fa-long-arrow-left"></i></a>
-                        </div>
-                      </div>
-                      <div class="col-sm-10 col-xs-12 text-center">
-                      </div>
-                      <div class="col-sm-1 hidden-xs backstrech-controls vertical-center-js">
-                        <div style="margin-top: 270px" @click.prevent="nextSlide">
-                          <a href="#next-slide" class="pull-right"><i class="fa fa-2x fa-long-arrow-right"></i></a>
-                        </div>
-                      </div>
-                    </div>
+          <div class="container "  >
+            <div class="row">
+              <div>
+                <div class="col-sm-1 hidden-xs backstrech-controls vertical-center-js">
+                  <div style="margin-top: 270px" @click.prevent="prevSlide">
+                    <a href="#" class="pull-left"><i class="fa fa-2x fa-long-arrow-left"></i></a>
+                  </div>
+                </div>
+                <div style="float: left">
+                  <img class="img-size" src="../../assets/images/team-1.jpg" alt="">
+                </div>
+                <div class=" hidden-xs backstrech-controls vertical-center-js" style="float: end">
+                  <div style="margin-left: 1400px" @click.prevent="nextSlide">
+                    <a href="#" style="margin-top: 270px" class="pull-right"><i class="fa fa-2x fa-long-arrow-right"></i></a>
                   </div>
                 </div>
               </div>
-            </header>
+            </div>
           </div>
           <div class="container">
             <div class="row">
               <div class="col-sm-10 col-sm-offset-1">
                 <div class="row project-item wow fadeIn" data-wow-delay="0.2s">
-                  <div class="col-sm-9">
+                  <div class="col-sm-9 ">
                     <p>Saw yet kindness too replying whatever marianne. Old sentiments resolution admiration unaffected
                       its mrs literature. Behaviour new set existence dashwoods. It satisfied to mr commanded consisted
                       disposing engrossed. Tall snug do of till on easy. Form not calm new fail.</p>
@@ -66,13 +61,13 @@
 
   export default {
     name: "SelectPhoto",
-    data(){
+    data() {
       return {
-        flag:null
+        flag: null
       }
     },
     created: function () {
-        this.nextSlide()
+      this.nextSlide()
     },
     components: {
       Head
@@ -88,10 +83,10 @@
       /**
        * 下一页
        */
-      nextSlide(){
-        if(this.flag != null && this.flag != undefined){
+      nextSlide() {
+        if (this.flag != null && this.flag != undefined) {
           console.log(11);
-        }else {
+        } else {
           this.flag = setInterval(() => {
             console.log(22);
           }, 2000)
