@@ -5,7 +5,7 @@
         <div class="container">
           <div class="row mb60 text-center">
             <div class="col-sm-12">
-              <h3 class="section-title">News List</h3>
+              <h3 class="section-title" >我的相册๑</h3>
             </div>
           </div>
         </div>
@@ -24,7 +24,7 @@
                   </div>
                   <div class="hover-caption dark-overlay smoothie text-center">
                     <div class="vertical-align-bottom">
-                      <a href="single-post.html" class="btn btn-primary pull-right mb20">Read Now</a>
+                      <router-link to="/select_photo" class="btn btn-primary pull-right">看见我的世界๑</router-link>
                     </div>
                   </div>
                 </div>
@@ -33,7 +33,7 @@
                   distinctive potentialities whereas team driven channels. Objectively deploy distinctive data whereas
                   bricks-and-clicks bandwidth. Seamlessly fashion vertical intellectual capital and magnetic
                   e-business.</p>
-                <a href="single-post.html" class="btn btn-primary pull-right">Read Now</a>
+                <router-link to="/select_photo" class="btn btn-primary pull-right">看见我的世界๑</router-link>
               </div>
               <div class="col-sm-12 nopaddingleftright blog-list-item mb90">
                 <div class="hover-effect smoothie mb40">
@@ -47,7 +47,7 @@
                   </div>
                   <div class="hover-caption dark-overlay smoothie text-center">
                     <div class="vertical-align-bottom">
-                      <a href="single-post.html" class="btn btn-primary pull-right mb20">Read Now</a>
+                      <a href="single-post.html" class="btn btn-primary pull-right mb20">看见我的世界๑</a>
                     </div>
                   </div>
                 </div>
@@ -56,7 +56,7 @@
                   distinctive potentialities whereas team driven channels. Objectively deploy distinctive data whereas
                   bricks-and-clicks bandwidth. Seamlessly fashion vertical intellectual capital and magnetic
                   e-business.</p>
-                <a href="single-post.html" class="btn btn-primary pull-right">Read Now</a>
+                <a href="single-post.html" class="btn btn-primary pull-right">看见我的世界๑</a>
               </div>
               <div class="col-sm-12 nopaddingleftright blog-list-item mb90">
                 <div class="hover-effect smoothie mb40">
@@ -70,7 +70,7 @@
                   </div>
                   <div class="hover-caption dark-overlay smoothie text-center">
                     <div class="vertical-align-bottom">
-                      <a href="single-post.html" class="btn btn-primary pull-right mb20">Read Now</a>
+                      <a href="single-post.html" class="btn btn-primary pull-right mb20">看见我的世界๑</a>
                     </div>
                   </div>
                 </div>
@@ -79,7 +79,7 @@
                   distinctive potentialities whereas team driven channels. Objectively deploy distinctive data whereas
                   bricks-and-clicks bandwidth. Seamlessly fashion vertical intellectual capital and magnetic
                   e-business.</p>
-                <a href="single-post.html" class="btn btn-primary pull-right">Read Now</a>
+                <a href="single-post.html" class="btn btn-primary pull-right">看见我的世界๑</a>
               </div>
             </div>
 

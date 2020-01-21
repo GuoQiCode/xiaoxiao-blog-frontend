@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd3196d7-ca30-4c10-a75e-478b35d6e7e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/photo/selectPhoto.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6c4223c2fcd19635dec77b417bee152d.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6c4223c2fcd19635dec77b417bee152d.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index/head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index/head.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/share/body.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/share/body.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/photo/body.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/photo/body.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,6 +48,7 @@
       <recent name="E:\xiaoxiao-blog-frontend\src\assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xiaoxiao-blog-frontend\src\assets\js" />
       <recent name="E:\xiaoxiao-blog-frontend\src\assets\images" />
       <recent name="E:\xiaoxiao-blog-frontend\src\assets\font-awesome\fonts" />
       <recent name="E:\xiaoxiao-blog-frontend\src\assets\css" />
@@ -78,6 +78,7 @@
       <updated>1578973193498</updated>
       <workItem from="1578973196788" duration="3951000" />
       <workItem from="1579574615288" duration="7797000" />
+      <workItem from="1579597691661" duration="1293000" />
     </task>
     <task id="LOCAL-00001" summary="搭建好了基本框架">
       <created>1578973239631</created>
@@ -107,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579578279705</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="相册首页完成">
+      <created>1579591835332</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579591835332</updated>
+    </task>
+    <task id="LOCAL-00006" summary="相册详情查看完成">
+      <created>1579598632145</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579598632145</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,13 +134,15 @@
     <MESSAGE value="完成关于我页面的" />
     <MESSAGE value="完成个人分享页面" />
     <MESSAGE value="完成页面调整" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成页面调整" />
+    <MESSAGE value="相册首页完成" />
+    <MESSAGE value="相册详情查看完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="相册详情查看完成" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="624" y="7" key="CommitChangelistDialog2" timestamp="1579584812314">
+    <state x="624" y="7" key="CommitChangelistDialog2" timestamp="1579598628384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="624" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579584812314" />
+    <state x="624" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579598628384" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1578974162900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -134,10 +151,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="602" y="135" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1579578884700" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1579578285476">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1579599432198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579578285476" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579599432198" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1578974261467">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

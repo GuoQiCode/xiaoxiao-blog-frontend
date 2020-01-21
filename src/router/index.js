@@ -72,6 +72,17 @@ const Drop = ()=> import("../view/index/drop")
 const Photo = () => import("../view/index/photo")
 
 
+/**
+ *                              非主页面跳转
+ * ===============================================================================
+ */
+
+
+/**
+ * 相册内的所有照片详情查看
+ * @constructor
+ */
+const SelectPhoto =()=> import("../components/photo/selectPhoto")
 
 /**
  * 配置路由
@@ -139,6 +150,9 @@ const routes = [
   {
     path:"/photo",
     component:Photo
+  },{
+    path:"/select_photo",
+    component:SelectPhoto
   }
 ]
 /**
