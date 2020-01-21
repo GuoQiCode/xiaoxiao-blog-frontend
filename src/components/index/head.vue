@@ -78,6 +78,9 @@
                       <router-link to="/mood">我的心情๑</router-link>
                     </li>
                     <li><a href="single-portfolio.html">点点滴滴๑</a></li>
+                    <li>
+                      <router-link to="/share">个人分享๑</router-link>
+                    </li>
                   </ul>
                 </li>
                 <li class="dropdown">
