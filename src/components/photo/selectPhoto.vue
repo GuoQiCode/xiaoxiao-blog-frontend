@@ -11,15 +11,15 @@
                   <div class="vertical-center-js">
                     <div class="row">
                       <div class="col-sm-1 hidden-xs backstrech-controls vertical-center-js">
-                        <div style="margin-top: 270px">
-                          <a href="#prev-slide" class="pull-left"><i class="fa fa-2x fa-long-arrow-left"></i></a>
+                        <div style="margin-top: 270px" @click.prevent="prevSlide">
+                          <a href="#" class="pull-left"><i class="fa fa-2x fa-long-arrow-left"></i></a>
                         </div>
                       </div>
                       <div class="col-sm-10 col-xs-12 text-center">
                       </div>
                       <div class="col-sm-1 hidden-xs backstrech-controls vertical-center-js">
-                        <div style="margin-top: 270px">
-                          <a href="#next-slide" class="pull-right"><i class="fa fa-2x fa-long-arrow-right" ></i></a>
+                        <div style="margin-top: 270px" @click.prevent="nextSlide">
+                          <a href="#next-slide" class="pull-right"><i class="fa fa-2x fa-long-arrow-right"></i></a>
                         </div>
                       </div>
                     </div>
@@ -63,10 +63,40 @@
 -->
 <script>
   import Head from "../../components/index/head"
+
   export default {
     name: "SelectPhoto",
+    data(){
+      return {
+        flag:null
+      }
+    },
+    created: function () {
+        this.nextSlide()
+    },
     components: {
       Head
+    },
+    methods: {
+      /**
+       * 上一页
+       */
+      prevSlide() {
+        window.clearInterval(this.flag)
+        this.flag = null
+      },
+      /**
+       * 下一页
+       */
+      nextSlide(){
+        if(this.flag != null && this.flag != undefined){
+          console.log(11);
+        }else {
+          this.flag = setInterval(() => {
+            console.log(22);
+          }, 2000)
+        }
+      }
     }
   }
 </script>
