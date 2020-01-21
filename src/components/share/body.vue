@@ -149,44 +149,9 @@
             </div>
 
             <div class="col-sm-3 col-sm-offset-1 sidebar">
-              <div class="gallery-widget widget mb40">
-                <h4 class="widget-title mb40">Gallery</h4>
-                <div class="widget-content">
-                  <div class="gallery-list">
-                    <a class="thumb" href="#">
-                      <img alt="" class="img-responsive" src="https://unsplash.it/300/300?image=548">
-                    </a>
-                    <a class="thumb" href="#">
-                      <img alt="" class="img-responsive" src="https://unsplash.it/300/300?image=659">
-                    </a>
-                    <a class="thumb" href="#">
-                      <img alt="" class="img-responsive" src="https://unsplash.it/300/300?image=974">
-                    </a>
-                    <a class="thumb" href="#">
-                      <img alt="" class="img-responsive" src="https://unsplash.it/300/300?image748">
-                    </a>
-                    <a class="thumb" href="#">
-                      <img alt="" class="img-responsive" src="https://unsplash.it/300/300?image=484">
-                    </a>
-                    <a class="thumb" href="#">
-                      <img alt="" class="img-responsive" src="https://unsplash.it/300/300?image=298">
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="mailing-widget widget">
-                <h4 class="widget-title mb40">Mailing List</h4>
-                <div class="content-wiget">
-                  <p class="mb40">Subscribe to our newsletter for the latest updates and offers.</p>
-                  <form action="index.html">
-                    <div class="input-group">
-                      <input class="form-control form-email-widget" placeholder="Email address" type="text"><span
-                            class="input-group-btn"><input class="btn btn-email" type="submit" value="✓"></span>
-                    </div>
-                  </form>
-                  <p></p>
-                </div>
-              </div>
+
+              <Gallery></Gallery>
+
             </div>
           </div>
         </div>
@@ -196,8 +161,12 @@
 </template>
 
 <script>
+  import Gallery from "../../common/gallery/gallery"
   export default {
     name: "ShareBody",
+    components:{
+      Gallery
+    }
   }
 </script>
 

@@ -71,7 +71,9 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                      aria-expanded="false">Portfolio <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="single-post-video.html">我的相册๑</a></li>
+                    <li>
+                      <router-link to="/photo">我的相册๑</router-link>
+                    </li>
                     <li>
                       <router-link to="/mood">我的心情๑</router-link>
                     </li>

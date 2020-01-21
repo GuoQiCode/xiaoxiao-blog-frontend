@@ -64,6 +64,15 @@ const Share = () => import("../view/index/share")
  * @constructor
  */
 const Drop = ()=> import("../view/index/drop")
+
+/**
+ * 相册
+ * @constructor
+ */
+const Photo = () => import("../view/index/photo")
+
+
+
 /**
  * 配置路由
  * @type {*[]}
@@ -126,6 +135,10 @@ const routes = [
   {
     path:"/drop",
     component:Drop
+  },
+  {
+    path:"/photo",
+    component:Photo
   }
 ]
 /**
