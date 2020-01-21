@@ -59,7 +59,11 @@ const About = () => import("../view/index/about")
  */
 const Share = () => import("../view/index/share")
 
-
+/**
+ * 点点滴滴
+ * @constructor
+ */
+const Drop = ()=> import("../view/index/drop")
 /**
  * 配置路由
  * @type {*[]}
@@ -118,6 +122,10 @@ const routes = [
   {
     path: "/share",
     component: Share
+  },
+  {
+    path:"/drop",
+    component:Drop
   }
 ]
 /**

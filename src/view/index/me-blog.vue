@@ -3,7 +3,6 @@
     <!--头部信息-->
     <Head></Head>
     <MeBlogBody></MeBlogBody>
-    <Footer></Footer>
   </div>
 </template>
 
@@ -17,13 +16,13 @@
   /**
    * 导入脚
    */
-  import Footer from "../../components/index/footer"
+
   export default {
     name: "MeBlog",
     components:{
       Head,
       MeBlogBody,
-      Footer
+
     }
   }
 </script>

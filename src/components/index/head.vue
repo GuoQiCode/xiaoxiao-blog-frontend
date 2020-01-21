@@ -71,13 +71,13 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                      aria-expanded="false">Portfolio <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li>
-                      <router-link to="/meblog">我的博文๑</router-link>
-                    </li>
+                    <li><a href="single-post-video.html">我的相册๑</a></li>
                     <li>
                       <router-link to="/mood">我的心情๑</router-link>
                     </li>
-                    <li><a href="single-portfolio.html">点点滴滴๑</a></li>
+                    <li>
+                      <router-link to="/drop">点点滴滴๑</router-link>
+                    </li>
                     <li>
                       <router-link to="/share">个人分享๑</router-link>
                     </li>
@@ -88,13 +88,17 @@
                      aria-expanded="false">News <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li>
-                      <router-link to="/pigeonhole">归档๑</router-link>
+                      <router-link to="/meblog">我的博文๑</router-link>
                     </li>
+
                     <li>
                       <router-link to="/new_article">最新文章๑</router-link>
                     </li>
                     <li><a href="news-tiles.html">分类文章๑</a></li>
-                    <li><a href="single-post-video.html">我的相册๑</a></li>
+
+                    <li>
+                      <router-link to="/pigeonhole">归档๑</router-link>
+                    </li>
                   </ul>
                 </li>
                 <li class="dropdown">

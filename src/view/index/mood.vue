@@ -2,7 +2,6 @@
   <div>
     <Head></Head>
     <MoodBody></MoodBody>
-    <Footer></Footer>
   </div>
 </template>
 
@@ -15,16 +14,12 @@
    * 导入身体
    */
   import MoodBody from "../../components/mood/body"
-  /**
-   * 脚
-   */
-  import Footer from "../../components/index/footer"
+
   export default {
     name: "Mood",
     components: {
       Head,
       MoodBody,
-      Footer
     }
   }
 </script>

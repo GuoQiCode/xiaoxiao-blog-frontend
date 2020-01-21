@@ -4,8 +4,7 @@
     <MagazineHead></MagazineHead>
     <!--身体-->
     <MagazineBody></MagazineBody>
-    <!--脚-->
-    <Footer></Footer>
+
   </div>
 </template>
 
@@ -20,10 +19,7 @@
    */
   import MagazineBody from "../../components/magazine/body"
 
-  /**
-   * 导入脚
-   */
-  import Footer from "../../components/index/footer"
+
 
 
   export default {
@@ -31,7 +27,6 @@
     components:{
       MagazineHead,
       MagazineBody,
-      Footer
     }
   }
 </script>

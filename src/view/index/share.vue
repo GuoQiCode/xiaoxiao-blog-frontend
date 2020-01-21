@@ -2,7 +2,7 @@
   <div>
     <Head></Head>
     <ShareBody></ShareBody>
-    <Footer></Footer>
+
   </div>
 </template>
 
@@ -10,8 +10,6 @@
 
 
   import Head from "../../components/index/head"
-
-  import Footer from "../../components/index/footer"
 
 
   /**
@@ -25,7 +23,6 @@
     components:{
       Head,
       ShareBody,
-      Footer
     }
   }
 </script>

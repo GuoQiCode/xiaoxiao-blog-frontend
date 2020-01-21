@@ -6,8 +6,6 @@
     <Head></Head>
     <!--身体-->
     <Body></Body>
-    <!--脚-->
-    <Footer></Footer>
   </div>
 </template>
 
@@ -20,17 +18,13 @@
    * 导入身体
    */
   import Body from "../../components/recommend/body"
-  /**
-   * 脚
-   */
-  import Footer from "../../components/index/footer"
+
 
   export default {
     name: "recommend",
     components: {
       Head,
       Body,
-      Footer
     }
   }
 </script>
