@@ -92,6 +92,12 @@ const Type = ()=> import("../view/index/type")
 const SelectPhoto =()=> import("../components/photo/selectPhoto")
 
 /**
+ * 文章读取
+ * @constructor
+ */
+const Article = () => import("../common/article/article")
+
+/**
  * 配置路由
  * @type {*[]}
  */
@@ -164,6 +170,10 @@ const routes = [
   {
     path:"/type",
     component:Type
+  },
+  {
+    path:"/article",
+    component:Article
   }
 ]
 /**

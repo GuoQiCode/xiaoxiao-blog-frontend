@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd3196d7-ca30-4c10-a75e-478b35d6e7e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/type/body.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/index/type.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/article/article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/article/gridArticle.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1095c30263d5142f750f6b8c2ab45314.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1095c30263d5142f750f6b8c2ab45314.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/4fb2d45594bba43d853853b488be9509.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/4fb2d45594bba43d853853b488be9509.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/639760b57db9b8864d204712dab9593c.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/639760b57db9b8864d204712dab9593c.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6b4566f29fb6a46d76e0b3ea8560403c.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6b4566f29fb6a46d76e0b3ea8560403c.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6e0175d96bf5d3324202fcb51872e746.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6e0175d96bf5d3324202fcb51872e746.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/d97d424199da6311a2c938f9a10e4b17.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/d97d424199da6311a2c938f9a10e4b17.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/db1a18027e6cd031fbd8254c7833d25d.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/db1a18027e6cd031fbd8254c7833d25d.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index/head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index/head.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index/center.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index/center.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,14 +58,15 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\xiaoxiao-blog-frontend\node_modules\prettier" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\xiaoxiao-blog-frontend\src\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\xiaoxiao-blog-frontend\src\assets\js" />
       <recent name="E:\xiaoxiao-blog-frontend\src\assets\images" />
       <recent name="E:\xiaoxiao-blog-frontend\src\assets\font-awesome\fonts" />
       <recent name="E:\xiaoxiao-blog-frontend\src\assets\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xiaoxiao-blog-frontend\src\common\article" />
+      <recent name="E:\xiaoxiao-blog-frontend\src\assets" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -92,7 +94,7 @@
       <workItem from="1578973196788" duration="3951000" />
       <workItem from="1579574615288" duration="7797000" />
       <workItem from="1579597691661" duration="11190000" />
-      <workItem from="1579683076910" duration="1776000" />
+      <workItem from="1579683076910" duration="7435000" />
     </task>
     <task id="LOCAL-00001" summary="搭建好了基本框架">
       <created>1578973239631</created>
@@ -157,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579611513251</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加分类文章">
+      <created>1579685008525</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579685008525</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,13 +181,14 @@
     <MESSAGE value="相册首页完成" />
     <MESSAGE value="相册详情查看完成" />
     <MESSAGE value="相册详情查看的轮播图解决" />
-    <option name="LAST_COMMIT_MESSAGE" value="相册详情查看的轮播图解决" />
+    <MESSAGE value="添加分类文章" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加分类文章" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="624" y="7" key="CommitChangelistDialog2" timestamp="1579611511192">
+    <state x="624" y="7" key="CommitChangelistDialog2" timestamp="1579685004469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="624" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579611511192" />
+    <state x="624" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579685004469" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1578974162900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -187,17 +197,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="602" y="135" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1579578884700" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1579611685080">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1579685012003">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579611685080" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579685012003" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1579610823763">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1579610823763" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1578974261467">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1579689779234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1578974261467" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1579689779234" />
   </component>
 </project>

@@ -27,7 +27,7 @@
                       <p class="mb20"><small>Credibly monetize empowered portals before distinctive methodologies. Distinctively customize multifunctional metrics before accurate technologies. Energistically matrix cooperative sources rather than virtual supply chains.</small></p>
                     </div>
                     <div class="vertical-align-bottom">
-                      <a href="single-post.html" class="btn btn-primary pull-right mb20">Read Now</a>
+                      <router-link class="btn btn-primary pull-right mb20" to = "/article">Read Now</router-link>
                     </div>
                   </div>
                 </div>
