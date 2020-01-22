@@ -71,6 +71,13 @@ const Drop = ()=> import("../view/index/drop")
  */
 const Photo = () => import("../view/index/photo")
 
+/**
+ * 分类文章
+ * @constructor
+ */
+const Type = ()=> import("../view/index/type")
+
+
 
 /**
  *                              非主页面跳转
@@ -153,6 +160,10 @@ const routes = [
   },{
     path:"/select_photo",
     component:SelectPhoto
+  },
+  {
+    path:"/type",
+    component:Type
   }
 ]
 /**

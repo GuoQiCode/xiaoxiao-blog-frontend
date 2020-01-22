@@ -96,8 +96,9 @@
                     <li>
                       <router-link to="/new_article">最新文章๑</router-link>
                     </li>
-                    <li><a href="news-tiles.html">分类文章๑</a></li>
-
+                    <li>
+                      <router-link to="/type">分类文章๑</router-link>
+                    </li>
                     <li>
                       <router-link to="/pigeonhole">归档๑</router-link>
                     </li>
