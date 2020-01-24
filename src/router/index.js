@@ -77,6 +77,11 @@ const Photo = () => import("../view/index/photo")
  */
 const Type = ()=> import("../view/index/type")
 
+/**
+ * 404页面
+ */
+const FourToFour= ()=> import("../common/404/404")
+
 
 
 /**
@@ -221,6 +226,13 @@ const routes = [
     component:Article,
     meta:{
       title: "关于我我"
+    },
+  },
+  {
+    path:"/error",
+    component:FourToFour,
+    meta:{
+      title: "404"
     }
   }
 ]
