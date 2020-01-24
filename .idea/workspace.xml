@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd3196d7-ca30-4c10-a75e-478b35d6e7e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/article/article.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/article/gridArticle.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1095c30263d5142f750f6b8c2ab45314.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1095c30263d5142f750f6b8c2ab45314.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/4fb2d45594bba43d853853b488be9509.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/4fb2d45594bba43d853853b488be9509.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/639760b57db9b8864d204712dab9593c.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/639760b57db9b8864d204712dab9593c.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6b4566f29fb6a46d76e0b3ea8560403c.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6b4566f29fb6a46d76e0b3ea8560403c.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6e0175d96bf5d3324202fcb51872e746.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6e0175d96bf5d3324202fcb51872e746.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/d97d424199da6311a2c938f9a10e4b17.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/d97d424199da6311a2c938f9a10e4b17.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/db1a18027e6cd031fbd8254c7833d25d.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/db1a18027e6cd031fbd8254c7833d25d.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index/center.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index/center.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6c4223c2fcd19635dec77b417bee152d.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6c4223c2fcd19635dec77b417bee152d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b9b768ceb685c24057a0065c60be4558.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b9b768ceb685c24057a0065c60be4558.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ed935bfb9c2abaa034352c0da9d70526.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ed935bfb9c2abaa034352c0da9d70526.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/0755e47292d04e612678a64eb78cc310.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/0755e47292d04e612678a64eb78cc310.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/08d574b2bf1a6d8517a5a01adabc95d2.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/08d574b2bf1a6d8517a5a01adabc95d2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/0cf8974f30adb74956cc62ac24c00c25.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/0cf8974f30adb74956cc62ac24c00c25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/26a11c4f1ecf35852f7fea20d1893c7c.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/26a11c4f1ecf35852f7fea20d1893c7c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/273cdd251c7e9a219f0f0eedfba4eccc.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/273cdd251c7e9a219f0f0eedfba4eccc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/42d032bd75e35e1608b468ca2d0afad4.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/42d032bd75e35e1608b468ca2d0afad4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/5dde83f448c38ea6d4eb28f7b12b61db.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/5dde83f448c38ea6d4eb28f7b12b61db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/800c88cf6ce831ab121c44a5a40a22da.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/800c88cf6ce831ab121c44a5a40a22da.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/e890e3200b3148e0e87967e7a2a74781.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/e890e3200b3148e0e87967e7a2a74781.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index/footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index/footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index/head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index/head.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +97,9 @@
       <workItem from="1578973196788" duration="3951000" />
       <workItem from="1579574615288" duration="7797000" />
       <workItem from="1579597691661" duration="11190000" />
-      <workItem from="1579683076910" duration="7435000" />
+      <workItem from="1579683076910" duration="7501000" />
+      <workItem from="1579693046519" duration="2297000" />
+      <workItem from="1579822749677" duration="4005000" />
     </task>
     <task id="LOCAL-00001" summary="搭建好了基本框架">
       <created>1578973239631</created>
@@ -166,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579685008525</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="文章详情">
+      <created>1579690633663</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579690633663</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,13 +194,14 @@
     <MESSAGE value="相册详情查看完成" />
     <MESSAGE value="相册详情查看的轮播图解决" />
     <MESSAGE value="添加分类文章" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加分类文章" />
+    <MESSAGE value="文章详情" />
+    <option name="LAST_COMMIT_MESSAGE" value="文章详情" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="624" y="7" key="CommitChangelistDialog2" timestamp="1579685004469">
+    <state x="624" y="7" key="CommitChangelistDialog2" timestamp="1579690630678">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="624" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579685004469" />
+    <state x="624" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579690630678" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1578974162900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -197,10 +210,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="602" y="135" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1579578884700" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1579685012003">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1579690636706">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579685012003" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579690636706" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1579610823763">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

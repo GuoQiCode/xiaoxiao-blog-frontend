@@ -1,6 +1,8 @@
 <template>
   <!--顶部的连接-->
   <div class="root">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="shortcut icon" href="assets/images/favicon/favicon.ico" type="image/x-icon"/>
     <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png"/>
     <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-touch-icon-57x57.png"/>
@@ -20,14 +22,10 @@
       <div id="top-bar" class="hidden-xs">
         <div class="container">
           <div class="col-sm-4">
-            <ul class="list-inline">
-              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
-              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
-              <li><a class="blog" href="#"><i class="fa fa-rss"></i></a></li>
-              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-            </ul>
+        <!--    <ul class="list-inline">
+              <li><a class="dribbble" href="#"><i class="fa fa-qq"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-wechat"></i></a></li>
+            </ul>-->
           </div>
           <div class="col-sm-8">
             <ul class="secondary-menu list-inline pull-right">

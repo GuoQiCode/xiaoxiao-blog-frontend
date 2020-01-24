@@ -12,15 +12,18 @@
           </div>
           <div class="col-md-3 col-xs-6">
             <div class="text-widget widget">
-              <h4 class="widget-title mb40">Location</h4>
+              <h4 class="widget-title mb40">作落潇城๑</h4>
               <div class="widget-content">
-                <p>Conveniently enhance high-quality imperatives vis-a-vis team driven technologies. Intrinsicly fashion economically sound communities rather than principle-centered deliverables. Synergistically impact.</p>
+                <p>
+                  所为天才就是,就是努力的的力量。敢于梦想，一切将成为可能。
+                  记录的是美好的回忆、
+                </p>
               </div>
             </div>
           </div>
           <div class="col-md-3 col-xs-6">
             <div class="useful-link-widget widget">
-              <h4 class="widget-title mb40">Pages</h4>
+              <h4 class="widget-title mb40">友情链接๑</h4>
               <div class="widget-content">
                 <div class="useful-link-list">
                   <div class="row">
@@ -71,9 +74,10 @@
           </div>
           <div class="col-md-3 col-xs-6">
             <div class="mailing-widget widget">
-              <h4 class="widget-title mb40">Mailing List</h4>
+              <h4 class="widget-title mb40">订阅我๑</h4>
               <div class="content-wiget">
                 <p class="mb40">Subscribe to our newsletter for the latest updates and offers.</p>
+                <p class="mb40">我会将最新的文章信息推送到你的邮箱๑</p>
                 <form action="index.html">
                   <div class="input-group">
                     <input class="form-control form-email-widget" placeholder="Email address" type="text"><span class="input-group-btn"><input class="btn btn-email" type="submit" value="✓"></span>
