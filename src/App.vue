@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!--页面装载容器-->
+    <!--页面承载容器-->
     <router-view></router-view>
   </div>
 </template>

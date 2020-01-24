@@ -107,11 +107,17 @@ const routes = [
    */
   {
     path: "/",
-    component: Index
+    component: Index,
+    meta:{
+      title:"首页~欢迎来到作落潇城博客๑~我的个人小窝~~~"
+    }
   },
   {
     path: "/index",
-    redirect: "/"
+    redirect: "/",
+    meta:{
+      title:"首页๑"
+    }
   },
 
   /**
@@ -119,61 +125,103 @@ const routes = [
    */
   {
     path: "/magazine",
-    component: Magazine
+    component: Magazine,
+    meta:{
+      title: "文章杂谈๑"
+    }
   },
   {
     path: "/recommend",
-    component: Recommend
+    component: Recommend,
+    meta:{
+      title: "文章推荐๑"
+    }
   },
   {
     path: "/meblog",
-    component: MeBlog
+    component: MeBlog,
+    meta:{
+      title: "我的博文๑"
+    }
   },
   /**
    * 我的心情页面
    */
   {
     path: "/mood",
-    component: Mood
+    component: Mood,
+    meta:{
+      title: "我的心情~秒速五厘米๑"
+    }
   },
   {
     path: "/pigeonhole",
-    component: Pigeonhole
+    component: Pigeonhole,
+    meta:{
+      title: "学习分类~秒速五厘米๑"
+    }
   },
   {
     path: "/leave_a_message",
-    component: LeaveAMessage
+    component: LeaveAMessage,
+    meta:{
+      title: "给我留言~世界连接着我的眼睛๑"
+    }
   },
   {
     path: "/new_article",
-    component: NewArticle
+    component: NewArticle,
+    meta:{
+      title: "最新推荐~秒速五厘米๑"
+    }
   },
   {
     path: "/about",
-    component: About
+    component: About,
+    meta:{
+      title: "关于我~有时候有点衰呢"
+    }
   },
   {
     path: "/share",
-    component: Share
+    component: Share,
+    meta:{
+      title: "我的分享~讲我的快乐分享给你๑"
+    }
   },
   {
     path:"/drop",
-    component:Drop
+    component:Drop,
+    meta:{
+      title: "我的点点滴滴~来到这世界让我有点措手不急呢๑"
+    }
   },
   {
     path:"/photo",
-    component:Photo
+    component:Photo,
+    meta:{
+      title: "我的个人相册~留下点或者的痕迹吧"
+    }
   },{
     path:"/select_photo",
-    component:SelectPhoto
+    component:SelectPhoto,
+    meta:{
+      title: "详情~有时候有点衰呢"
+    }
   },
   {
     path:"/type",
-    component:Type
+    component:Type,
+    meta:{
+      title: "分类~有时候有点衰呢"
+    }
   },
   {
     path:"/article",
-    component:Article
+    component:Article,
+    meta:{
+      title: "关于我我"
+    }
   }
 ]
 /**
