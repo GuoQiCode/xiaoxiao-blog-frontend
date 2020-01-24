@@ -22,10 +22,10 @@
       <div id="top-bar" class="hidden-xs">
         <div class="container">
           <div class="col-sm-4">
-        <!--    <ul class="list-inline">
-              <li><a class="dribbble" href="#"><i class="fa fa-qq"></i></a></li>
-              <li><a class="dribbble" href="#"><i class="fa fa-wechat"></i></a></li>
-            </ul>-->
+            <!--    <ul class="list-inline">
+                  <li><a class="dribbble" href="#"><i class="fa fa-qq"></i></a></li>
+                  <li><a class="dribbble" href="#"><i class="fa fa-wechat"></i></a></li>
+                </ul>-->
           </div>
           <div class="col-sm-8">
             <ul class="secondary-menu list-inline pull-right">
@@ -62,7 +62,9 @@
                     <li>
                       <router-link to="/recommend">文章推荐๑</router-link>
                     </li>
-                    <li><a href="index-agency.html">跳蚤๑</a></li>
+                    <li>
+                      <router-link to="/notice">时间轴๑</router-link>
+                    </li>
                   </ul>
                 </li>
                 <li class="dropdown">

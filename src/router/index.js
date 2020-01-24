@@ -81,6 +81,11 @@ const Type = ()=> import("../view/index/type")
  * 404页面
  */
 const FourToFour= ()=> import("../common/404/404")
+/**
+ * 时间轴
+ * @constructor
+ */
+const TimerShaft = ()=> import("../view/index/timershaft")
 
 
 
@@ -233,6 +238,12 @@ const routes = [
     component:FourToFour,
     meta:{
       title: "404"
+    }
+  },{
+    path:"/notice",
+    component:TimerShaft,
+    meta:{
+      title:"我的时间轴๑记录小站的创建~"
     }
   }
 ]
